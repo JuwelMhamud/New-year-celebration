@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Merriweather", serif;
   box-sizing: border-box;
 }
 /* banner style */
@@ -34,4 +33,31 @@ img {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
+}
+/* offer section style */
+.offer {
+  text-align: center;
+}
+.offer-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.description {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.shoet-description {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.offer img {
+  width: 500px;
 }
