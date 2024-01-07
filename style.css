@@ -3,21 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* banner style */
-.banner {
+body {
   width: 1100px;
   height: 500px;
+  margin: 50px auto;
+}
+/* banner style */
+.banner {
   background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.3)
     ),
     url("resources/Banner\ Image.png");
-  margin: 50px auto;
   padding: 60px;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
+  margin: 50px 0;
 }
 
 .sub-text {
@@ -65,15 +68,13 @@
 }
 /* party section style */
 .party-sec {
-  width: 1100px;
-  height: 500px;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.9),
       rgba(0, 0, 0, 0.2)
     ),
     url("resources/Vectorrr.png");
-  margin: 50px auto;
+  margin: 50px 0;
   padding: 40px;
   background-position: center;
   background-size: cover;
@@ -137,7 +138,7 @@ span {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 50px auto;
+  margin: 80px auto;
   position: relative;
 }
 .girl-img {
@@ -157,3 +158,23 @@ span {
   right: 20%;
   top: 7%;
 }
+/* portfolio images */
+.shoet-description {
+  font-family: Merriweather;
+}
+.Portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.p-img {
+  width: 32%;
+}
+/* newsletter style */
