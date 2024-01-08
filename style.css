@@ -241,6 +241,11 @@ span {
 }
 .p-img {
   width: 32%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.p-img:hover{
+  transform: scale(1.2);
 }
 /* newsletter style */
 .newsletter h1,
