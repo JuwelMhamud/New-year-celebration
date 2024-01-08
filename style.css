@@ -3,13 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
 body {
   width: 1100px;
-  height: 500px;
-  margin: 50px auto;
+  height: 600px;
+  margin: 20px auto 50px auto;
 }
 /* banner style */
 .banner {
+  width: 1100px;
+  height: 500px;
   background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.5),
@@ -17,8 +20,8 @@ body {
     ),
     url("resources/Banner\ Image.png");
   padding: 60px;
-  background-position: center;
   background-size: cover;
+  background-position: center;
   border-radius: 10px;
   margin: 50px 0;
 }
@@ -68,6 +71,9 @@ body {
 }
 /* party section style */
 .party-sec {
+  width: 1100px;
+  height: 500px;
+  margin: 50px auto;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.9),
@@ -178,8 +184,9 @@ span {
   width: 32%;
 }
 /* newsletter style */
-.newsletter h1,p{
-    margin: 20px 0 10px 0;
+.newsletter h1,
+p {
+  margin: 20px 0 10px 0;
 }
 
 .newsletter {
@@ -200,13 +207,39 @@ input {
   font-size: 16px;
 }
 button {
-  padding: 18px 30px;
+  padding: 19px 30px;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
-  border: none;
+  border: 1px solid #f00;
   color: #fff;
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
-  margin-left: 0;
+  cursor: pointer;
+}
+/* footer style */
+
+footer {
+  background-color: #070211;
+  padding: 60px;
+  margin: 0px -126px;
+}
+.inner-part {
+  margin: 50px 90px;
+}
+.inner-part h4 {
+  color: #fff;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.icons a {
+  margin: 10px;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
 }
